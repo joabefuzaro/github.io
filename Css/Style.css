@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+} 
+.Header{
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 80px;
+    border-bottom: 1px solid #2d2d2d;
+    box-sizing: border-box;
+}
+.Header img{
+    max-width:100px;
+    max-height:60px;
+    width: 100%;
+    height: auto;
+    box-sizing: content-box;
+
+}
+.Header .Logo{
+    display: flex;
+    gap: 30px;
+}
+.Header .Menu{
+    display: flex;
+    gap: 30px;
+}
+.Header .Menu li a{
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.Home{
+    background-color: rgb(139, 2, 2);
+    display: flex;
+
+   
+}
+.Home::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,rgba(0,0,0, .85),rgba(0,0,0, .7)35%,transparent 65%);
+
+}
+.Home .BackGround {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.Home .Info{
+    height: 120%;
+    position: absolute;
+    z-index: 1;
+    min-height: calc(200vh-80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+}
+.Home .Info img{
+    max-width: 100px;
+}
+.Btn-play, .Btn-platform{
+background-color: #070707;
+border: 0.5px solid #ffffff;
+border-radius: 4px;
+font-size: 28px;
+text-align: center;
+padding: 20px 40px;
+text-transform: uppercase;
+width: 50%;
+cursor: pointer;
+}
+.Btn-play:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.Btn-platform{
+ color: #ffffff;
+ width: 100%;
+ cursor: zoom-in;
+}
+
+.Home1{
+    background-color: rgb(100, 99, 99);
+}
+.infor{
+    text-align: center;
+}
+
+.Home1 .container {
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.container .img1 {
+    width: 550px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  
+}
+.container .img2{
+    width: 550px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.descricao {
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.footer{
+    text-align: center;
+    padding-top: 10px;
+}
+.Casa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.item{
+    width: 40%;
+    background-color: #2d2d2d;
+    border: 1px solid rgb(255, 255, 255); 
+    box-sizing: border-box;
+    padding: 50px; 
+}
+.item ol {
+    list-style: none;
+}
+.Casa1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.Casa1 .tit{
+    text-align: center;
+    padding-top: 40px;
+}
+.container2{
+    display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   padding-top: 20px;
+}
+.item1{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 50px; 
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
